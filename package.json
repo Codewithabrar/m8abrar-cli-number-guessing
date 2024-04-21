@@ -1,9 +1,12 @@
 {
-  "name": "m8abrar-cli-number-guessing",
-  "version": "2.0.1",
+  "name": "@m8abrar/cli-number-guessing",
+  "version": "2.1.1",
   "description": "this is cli number guessing game",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
